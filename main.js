@@ -2,9 +2,7 @@
 //creating the result and button elements
 const result = document.getElementById("result");
 const searchBtn = document.getElementById("search-btn");
-// declaring api in a variable
-const url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
-// problem with the import from .env
+// importing api from .env
 //const url =import.meta.env.VITE_TMDB_URL;
 
 //creating the event listener for the search button
